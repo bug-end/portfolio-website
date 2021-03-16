@@ -28,22 +28,6 @@
 		letter-spacing: 15px;
 	}
 
-	.site-main .brand-area .first-row {
-		padding-bottom: 100px;
-	}
-
-	.site-main .brand-area .experience-area .years-area {
-		padding-left: 1rem;
-	}
-
-	.site-main .brand-area .experience-area .bg-panel {
-		width: 100vw;
-		margin: 0;
-		left: 0;
-		top: 0;
-		padding: 0;
-	}
-
 	.site-main .project-area .project-title .title-h1 {
 		font-size: 30px;
 	}
