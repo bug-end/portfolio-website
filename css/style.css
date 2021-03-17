@@ -213,13 +213,13 @@ main {
 /*subscribe area*/
 
 .site-main .subscribe-us-area {
-	width: 80vw;
+	width: 70vw;
 	margin: 0 auto;
 }
 
 .site-main .subscribe-us-area .subscribe {
 	background: var(--primary-color);
-	padding: 10rem 0;
+	padding: 8rem 0;
 	margin: 3rem auto;
 }
 
@@ -234,11 +234,11 @@ main {
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input {
-	/*width: 100%;*/
+	width: 350px;
 	padding: 1.5rem 1rem;
 	border: 1px solid whitesmoke;
 	background: transparent;
-	color: black;
+	color: whitesmoke;
 	font: normal 500 17px/20px var(--roboto);
 }
 
