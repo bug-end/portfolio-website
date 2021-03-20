@@ -60,12 +60,8 @@ main {
 
 /*banner area*/
 
-.site-main .site-banner .container {
-	padding-top: 50px;
-}
-
-.site-main .site-banner .site-title {
-	padding-top: 5%;
+.site-main .site-banner .container-sm {
+	padding-top: 70px;
 }
 
 .site-main .site-banner .site-title h3 {

@@ -1,10 +1,16 @@
 /*if the viewport is 340px or less*/
 @media only screen and (max-width: 576px){
 	
+	/*header area start*/
+
 	.header_area .main-menu .navbar .navbar-brand img {
 		width: 120px;
 		padding: 0;
 	}
+
+	/*header area end*/
+
+	/*baner area start*/
 
 	.site-main .site-banner .site-title .title-text {
 		line-height: 3rem;
@@ -22,11 +28,19 @@
 		width: 200px;
 	}
 
+	/*baner area end*/
+
+	/*about area start*/
+
 	.site-main .about-area .about-title h2 > span {
 		font-size: 28px;
 		line-height: 50px;
 		letter-spacing: 15px;
 	}
+
+	/*about area end*/
+
+	/*project area start*/
 
 	.site-main .project-area .project-title .title-h1 {
 		font-size: 30px;
@@ -42,4 +56,49 @@
 		padding-bottom: 20px;
 	}
 
+	/*project area end*/
+
 }
+
+@media only screen and (max-width: 768px) {
+
+	/*baner area start*/
+
+	.site-main .site-banner .site-title {
+		margin-bottom: 3rem;
+	}
+
+	.site-main .site-banner .site-title {
+		text-align: center;
+	}
+
+	.site-main .site-banner .site-title .site-buttons {
+		display: flex;
+		justify-content: center;
+	}
+
+	/*baner area end*/
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+	/*baner area start*/
+
+	.site-main .site-banner .site-title h1 {
+		font-size: 3rem;
+	}
+
+	.site-main .site-banner .site-title .title-text {
+		line-height: 3.5rem;
+	}
+
+	/*baner area end*/
+
+}
+
+
+
+
+
