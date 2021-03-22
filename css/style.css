@@ -209,11 +209,12 @@ main {
 /*subscribe area*/
 
 .site-main .subscribe-us-area {
-	width: 70vw;
-	margin: 0 auto;
+	/*width: 70vw;*/
+	/*margin: 0 auto;*/
 }
 
 .site-main .subscribe-us-area .subscribe {
+	width: 70vw;
 	background: var(--primary-color);
 	padding: 8rem 0;
 	margin: 3rem auto;
