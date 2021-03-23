@@ -12,18 +12,6 @@
 
 	/*baner area start*/
 
-	.site-main .site-banner .site-title .title-text {
-		line-height: 3rem;
-	}
-
-	.site-main .site-banner .site-title h1 {
-		font-size: 2rem;
-	}
-
-	.site-main .site-banner .site-title h3 {
-		font-size: 2.5rem;
-	}
-
 	/*baner area end*/
 
 	/*about area start*/
@@ -56,12 +44,6 @@
 
 	/*subscribe area start*/
 
-/*	.site-main .subscribe-us-area .subscribe {
-		width: 100%;
-		padding-left: 2rem; 
-		padding-right: 2rem; 
-	}*/
-
 	/*subscribe area end*/
 
 
@@ -77,12 +59,7 @@
 
 	.site-main .site-banner .site-title {
 		text-align: center;
-	}
-
-	.site-main .site-banner .site-title .site-buttons {
-		display: flex;
-		justify-content: center;
-	}
+	}	
 
 	/*baner area end*/
 
