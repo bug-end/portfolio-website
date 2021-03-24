@@ -62,6 +62,8 @@ main {
 
 .site-main .site-banner .site-title h3 {
 	font-weight: 500;
+	font-family: var(--roboto);
+	color: var(--primary-color);
 }
 
 .site-main .site-banner .site-title h3::after {
@@ -93,7 +95,7 @@ main {
 .site-main .about-area .about-title h2 > span {
 	display: block;
 	font: normal bold 49px/60px var(--roboto);
-	letter-spacing: 19px;
+	letter-spacing: 10px;
 }
 
 .site-main .about-area .about-title .paragraph > p {
@@ -250,7 +252,8 @@ main {
 /*footer area*/
 
 footer.footer-area {
-	padding: 4rem 0;
+	padding-top: 4rem;
+	padding-bottom: 0.1rem;
 	background: url(../img/footer-bg.png) center/cover no-repeat;
 }
 
