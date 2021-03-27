@@ -1,51 +1,28 @@
-/*if the viewport is 340px or less*/
-@media only screen and (max-width: 576px){
-	
-	/*header area start*/
-
-	.header_area .main-menu .navbar .navbar-brand img {
-		width: 120px;
-		padding: 0;
-	}
-
-	/*header area end*/
+@media only screen and (max-width: 1200px) {
 
 	/*baner area start*/
 
-	/*baner area end*/
-
-	/*about area start*/
-
-	.site-main .about-area .about-title h2 > span {
-		font-size: 28px;
-		line-height: 35px;
-		letter-spacing: 8px;
+	.site-main .site-banner .site-title h1 {
+		font-size: 3rem;
 	}
 
-	/*about area end*/
+	.site-main .site-banner .site-title .title-text {
+		line-height: 3.5rem;
+	}
+
+	/*baner area end*/
+
+}
+
+@media only screen and (max-width: 992px) {
 
 	/*project area start*/
 
-	.site-main .project-area .project-title .title-h1 {
-		font-size: 30px;
-	}
-
-	.site-main .project-area .button-group button {
-		line-height: 2rem;
-		padding: 0;
-		margin: 0;
-	}
-
-	.site-main .project-area .button-group {
-		padding-bottom: 20px;
+	.site-main .project-area {
+		width: 100%;
 	}
 
 	/*project area end*/
-
-	/*subscribe area start*/
-
-	/*subscribe area end*/
-
 
 }
 
@@ -63,22 +40,63 @@
 
 	/*baner area end*/
 
+	/*project area start*/
+
+	.site-main .project-area .project-title .title-h1 {
+		padding-bottom: 1rem;
+	}
+	
+	.site-main .project-area .button-group button {
+		line-height: 2rem;
+		padding: 0;
+		margin: 0;
+	}
+
+	.site-main .project-area .button-group {
+		padding-bottom: 40px;
+	}
+
+	/*project area end*/
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 576px){
+	
+	/*header area start*/
 
-	/*baner area start*/
-
-	.site-main .site-banner .site-title h1 {
-		font-size: 3rem;
+	.header_area .main-menu .navbar .navbar-brand img {
+		max-width: 120px;
+		padding: 0;
 	}
 
-	.site-main .site-banner .site-title .title-text {
-		line-height: 3.5rem;
+	/*header area end*/
+
+	/*about area start*/
+
+	.site-main .about-area .about-title h2 > span {
+		font-size: 28px;
+		line-height: 35px;
+		letter-spacing: 8px;
 	}
 
-	/*baner area end*/
+	/*about area end*/
+
+	/*project area start*/
+
+	.site-main .project-area .project-title .title-h1 {
+		font-size: 2rem;
+		padding-bottom: 1rem;
+	}
+
+	.site-main .project-area .button-group {
+		padding-bottom: 20px;
+	}
+
+	.site-main .project-area .grid .our-project > .title h4 {
+		font-size: 1rem;
+	}
+
+	/*project area end*/
 
 }
 
