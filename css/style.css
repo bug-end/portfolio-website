@@ -153,6 +153,11 @@ main {
 	font: normal 700 25px/25px var(--roboto);
 }
 
+.site-main .project-area .grid .our-project .img img {
+	width: 100%;
+	height: auto;
+}
+
 .site-main .project-area .grid .our-project .img a:hover img {
 	filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
@@ -201,11 +206,6 @@ main {
 
 /*subscribe area*/
 
-.site-main .subscribe-us-area {
-	/*width: 70vw;*/
-	/*margin: 0 auto;*/
-}
-
 .site-main .subscribe-us-area .subscribe {
 	width: 70vw;
 	background: var(--primary-color);
@@ -224,7 +224,7 @@ main {
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input {
-	max-width: 350px;
+	width: 350px;
 	padding: 1.5rem 1rem;
 	border: 1px solid whitesmoke;
 	background: transparent;
