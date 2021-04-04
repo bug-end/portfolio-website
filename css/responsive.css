@@ -28,6 +28,15 @@
 
 @media only screen and (max-width: 768px) {
 
+	/*header area start*/
+
+	.header_area .main-menu .navbar .navbar-brand img {
+		max-width: 120px;
+		padding: 0;
+	}
+
+	/*header area end*/
+
 	/*baner area start*/
 
 	.site-main .site-banner .site-title {
@@ -68,15 +77,6 @@
 }
 
 @media only screen and (max-width: 576px){
-	
-	/*header area start*/
-
-	.header_area .main-menu .navbar .navbar-brand img {
-		max-width: 120px;
-		padding: 0;
-	}
-
-	/*header area end*/
 
 	/*about area start*/
 
