@@ -9,7 +9,7 @@
 /*import global styling*/
 @import url(./partials/_global.css);
 
-/*start navigation*/
+/*navigation*/
 
 .header_area {
 	position: absolute;
@@ -56,8 +56,6 @@ main {
 	background-clip: text;
 }
 
-/*end navigation*/
-
 /*banner area*/
 
 .site-main .site-banner .site-title h3 {
@@ -84,9 +82,7 @@ main {
 	font-size: 1.5rem;
 }
 
-/*end banner area*/
-
-/*start about area*/
+/*about area*/
 
 .site-main .about-area {
 	padding: 4rem 0;
@@ -101,8 +97,6 @@ main {
 .site-main .about-area .about-title .paragraph > p {
 	padding: .4rem 0;
 }
-
-/*end about area*/
 
 /*services area*/
 
@@ -127,8 +121,6 @@ main {
 .site-main > .services-area .services:hover {
 	box-shadow: var(--box-shadow);
 }
-
-/*end services area*/
 
 /*project area*/
 
@@ -161,8 +153,6 @@ main {
 .site-main .project-area .grid .our-project .img a:hover img {
 	filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
-
-/*end project area*/
 
 /*client area*/
 
@@ -202,8 +192,6 @@ main {
 	height: 12px;	
 }
 
-/*end client area*/
-
 /*subscribe area*/
 
 .site-main .subscribe-us-area .subscribe {
@@ -215,33 +203,33 @@ main {
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4 {
 	font: normal 700 30px/30px var(--roboto);
-	color: whitesmoke;
+	color: var(--whitesmoke-color);
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title p {
-	color: whitesmoke;
+	color: var(--whitesmoke-color);
 	padding: 1rem 4rem;
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input {
-	width: 350px;
-	/*padding: 1.5rem 1rem;*/
-	border: 1px solid whitesmoke;
+	/*width: 350px;*/
+	margin-bottom: 25px;
+	border: 1px solid var(--whitesmoke-color);
 	background: transparent;
-	color: whitesmoke;
+	color: var(--whitesmoke-color);
 	font: normal 500 17px/20px var(--roboto);
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder {
-	color: whitesmoke;
+	color: var(--whitesmoke-color);
 }
 
 .site-main .subscribe-us-area .subscribe form .btn-submit button {
-	background: whitesmoke;
+	background: #f5f5f5;
 	color: #000;
+	border: 0px;
+	font-family: var(--roboto);
 }
-
-/*end subscribe area*/
 
 /*footer area*/
 
@@ -264,5 +252,3 @@ footer.footer-area .social a > i {
 footer.footer-area .social a:hover > i {
 	color: var(--primary-color);
 }
-
-/*end footer area*/

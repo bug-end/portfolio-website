@@ -19,13 +19,13 @@
 .button.primary-button {
 	background: var(--gradient-color);
 	background-clip: padding-box;
-	color: whitesmoke;
+	color: var(--whitesmoke-color);
 	transition: background .6s ease;
 	box-shadow: var(--box-shadow);
 }
 
 .button.primary-button:hover {
-	background: whitesmoke;
+	background: var(--whitesmoke-color);
 	background-clip: padding-box;
 	color: #000;
 }

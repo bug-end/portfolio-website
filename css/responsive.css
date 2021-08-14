@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1200px) {
 
-	/*baner area start*/
+	/*baner area*/
 
 	.site-main .site-banner .site-title h1 {
 		font-size: 3rem;
@@ -10,34 +10,28 @@
 		line-height: 3.5rem;
 	}
 
-	/*baner area end*/
-
 }
 
 @media only screen and (max-width: 992px) {
 
-	/*project area start*/
+	/*project area*/
 
 	.site-main .project-area {
 		width: 100%;
 	}
 
-	/*project area end*/
-
 }
 
 @media only screen and (max-width: 768px) {
 
-	/*header area start*/
+	/*header area*/
 
 	.header_area .main-menu .navbar .navbar-brand img {
 		max-width: 120px;
 		padding: 0;
 	}
 
-	/*header area end*/
-
-	/*baner area start*/
+	/*baner area*/
 
 	.site-main .site-banner .site-title {
 		margin-bottom: 3rem;
@@ -45,11 +39,9 @@
 
 	.site-main .site-banner .site-title {
 		text-align: center;
-	}	
+	}
 
-	/*baner area end*/
-
-	/*project area start*/
+	/*project area*/
 
 	.site-main .project-area .project-title .title-h1 {
 		padding-bottom: 1rem;
@@ -65,20 +57,16 @@
 		padding-bottom: 40px;
 	}
 
-	/*project area end*/
-
-	/*subscribe area start*/
+	/*subscribe area*/
 
 	.site-main .subscribe-us-area .subscribe {
 	width: 100vw;
-
-	/*subscribe area end*/
 
 }
 
 @media only screen and (max-width: 576px){
 
-	/*about area start*/
+	/*about area*/
 
 	.site-main .about-area .about-title h2 > span {
 		font-size: 28px;
@@ -86,9 +74,7 @@
 		letter-spacing: 8px;
 	}
 
-	/*about area end*/
-
-	/*project area start*/
+	/*project area*/
 
 	.site-main .project-area .project-title .title-h1 {
 		font-size: 2rem;
@@ -102,8 +88,6 @@
 	.site-main .project-area .grid .our-project > .title h4 {
 		font-size: 1rem;
 	}
-
-	/*project area end*/
 
 }
 
