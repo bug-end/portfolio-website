@@ -75,13 +75,23 @@ main {
 	left: 0;
 	right: 0;
 	background: #fff;
-	box-shadow: var(--box-shadow);
 	z-index: 999;
-	transition: background 1s ease;
+	transition: box-shadow 1s ease;
 }
 
-.navbar_fixed .navbar .navbar-brand img {
-	width: 130px;
+.navbar_fixed .navbar .navbar-brand {
+	transform: scale(1.0);
+	transition: all 1s ease;
+}
+
+.box_shadow {
+	box-shadow: var(--box-shadow);
+	transition: all 1s ease;
+}
+
+.box_shadow .navbar .navbar-brand {
+	transform: scale(0.8);
+	transition: all 1s ease;
 }
 
 /*banner area*/

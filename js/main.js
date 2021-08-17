@@ -39,7 +39,7 @@ $(document).ready(function(){
 		autoplayHoverPause: true
 	});
 
-	// sticky navbar
+	// sticky navbar animation
 
 	function navbarFixed(){
 		let nav_offset_top = $('.header_area').height() + 50;
@@ -47,9 +47,9 @@ $(document).ready(function(){
 			$(window).scroll(function(){
 				let scroll = $(window).scrollTop();
 				if(scroll >= nav_offset_top){
-					$('.header_area .main-menu').addClass('navbar_fixed');
+					$('.header_area .main-menu').addClass('box_shadow');
 				}else{
-					$('.header_area .main-menu').removeClass('navbar_fixed');
+					$('.header_area .main-menu').removeClass('box_shadow');
 				};
 			});
 		};
@@ -59,6 +59,7 @@ $(document).ready(function(){
 
 });
 
+// smooth scroll
 
 // Select all links with hashes
 $('a[href*="#"]')
@@ -80,19 +81,8 @@ $('a[href*="#"]')
         // Only prevent default if animation is actually gonna happen
         event.preventDefault();
         $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
+          scrollTop: target.offset().top - 80
+        }, 1000)
       }
     }
   });
