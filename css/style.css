@@ -66,7 +66,7 @@ main {
 	background-clip: text;
 }
 
-/*fixed navbar*/
+/*navbar animation*/
 
 .navbar_fixed {
 	position: fixed;
@@ -163,7 +163,7 @@ main {
 /*project area*/
 
 .site-main .project-area {
-	padding: 3rem 0;
+	padding: 4rem 0;
 	width: 70vw;
 	margin: 0 auto;
 }
@@ -193,6 +193,10 @@ main {
 }
 
 /*client area*/
+
+.site-main .client-area {
+	padding: 4rem 0;
+}
 
 .site-main .client-area .client {
 	background: #ffffff10;
@@ -232,11 +236,14 @@ main {
 
 /*subscribe area*/
 
+.site-main .subscribe-us-area {
+	padding: 4rem 0;
+}
+
 .site-main .subscribe-us-area .subscribe {
 	width: 70vw;
 	background: var(--primary-color);
 	padding: 8rem 2rem;
-	margin: 3rem auto;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4 {
