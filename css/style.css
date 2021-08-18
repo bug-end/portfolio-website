@@ -257,7 +257,6 @@ main {
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input {
-	/*width: 350px;*/
 	margin-bottom: 25px;
 	border: 1px solid var(--whitesmoke-color);
 	background: transparent;
